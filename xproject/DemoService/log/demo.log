@@ -1,0 +1,98 @@
+[2016-05-28 14:06:51.840][NOTICE][24588][DemoService][framework.go:134]:framework: StatsD config is missing, statsd will be unavailable
+[2016-05-28 14:06:51.848][NOTICE][24588][DemoService][framework.go:157]:framework: Redis config is missing, Redis will be unavailable
+[2016-05-28 14:06:51.848][NOTICE][24588][DemoService][framework.go:166]:framework: Memcache config is missing, Memcache will be unavailable
+[2016-05-28 14:06:51.849][INFO][24588][DemoService][framework.go:91]:-------------------------------------------------------------
+[2016-05-28 14:06:51.849][INFO][24588][DemoService][framework.go:92]:| Module     : DemoService
+[2016-05-28 14:06:51.849][INFO][24588][DemoService][framework.go:93]:| BuildDate  : build_date
+[2016-05-28 14:06:51.849][INFO][24588][DemoService][framework.go:94]:| CommitID   : commit_id
+[2016-05-28 14:06:51.849][INFO][24588][DemoService][framework.go:95]:| Version    : version
+[2016-05-28 14:06:51.849][INFO][24588][DemoService][framework.go:96]:| Copyright (c) 2015 codoon.com, Inc. All Rights Reserved
+[2016-05-28 14:06:51.849][INFO][24588][DemoService][framework.go:97]:-------------------------------------------------------------
+[2016-05-28 14:06:51.849][INFO][24588][DemoService][framework.go:100]:| RLimit     -
+[2016-05-28 14:06:51.849][INFO][24588][DemoService][framework.go:102]:|    Nofile  : (curr -> 65536, max -> 65536)
+[2016-05-28 14:06:51.849][INFO][24588][DemoService][framework.go:104]:|    Core    : (curr -> 0, max -> 9223372036854775807)
+[2016-05-28 14:06:51.849][INFO][24588][DemoService][framework.go:105]:-------------------------------------------------------------
+[2016-05-28 14:11:11.468][NOTICE][24724][DemoService][framework.go:134]:framework: StatsD config is missing, statsd will be unavailable
+[2016-05-28 14:11:11.471][NOTICE][24724][DemoService][framework.go:157]:framework: Redis config is missing, Redis will be unavailable
+[2016-05-28 14:11:11.471][NOTICE][24724][DemoService][framework.go:166]:framework: Memcache config is missing, Memcache will be unavailable
+[2016-05-28 14:11:11.471][INFO][24724][DemoService][framework.go:91]:-------------------------------------------------------------
+[2016-05-28 14:11:11.471][INFO][24724][DemoService][framework.go:92]:| Module     : DemoService
+[2016-05-28 14:11:11.471][INFO][24724][DemoService][framework.go:93]:| BuildDate  : build_date
+[2016-05-28 14:11:11.471][INFO][24724][DemoService][framework.go:94]:| CommitID   : commit_id
+[2016-05-28 14:11:11.471][INFO][24724][DemoService][framework.go:95]:| Version    : version
+[2016-05-28 14:11:11.471][INFO][24724][DemoService][framework.go:96]:| Copyright (c) 2015 codoon.com, Inc. All Rights Reserved
+[2016-05-28 14:11:11.471][INFO][24724][DemoService][framework.go:97]:-------------------------------------------------------------
+[2016-05-28 14:11:11.471][INFO][24724][DemoService][framework.go:100]:| RLimit     -
+[2016-05-28 14:11:11.471][INFO][24724][DemoService][framework.go:102]:|    Nofile  : (curr -> 65536, max -> 65536)
+[2016-05-28 14:11:11.471][INFO][24724][DemoService][framework.go:104]:|    Core    : (curr -> 0, max -> 9223372036854775807)
+[2016-05-28 14:11:11.471][INFO][24724][DemoService][framework.go:105]:-------------------------------------------------------------
+[2016-05-28 14:11:20.680][NOTICE][24751][framework.go:134]:framework: StatsD config is missing, statsd will be unavailable
+[2016-05-28 14:11:20.692][NOTICE][24751][framework.go:157]:framework: Redis config is missing, Redis will be unavailable
+[2016-05-28 14:11:20.693][NOTICE][24751][framework.go:166]:framework: Memcache config is missing, Memcache will be unavailable
+[2016-05-28 14:11:20.693][INFO][24751][framework.go:91]:-------------------------------------------------------------
+[2016-05-28 14:11:20.693][INFO][24751][framework.go:92]:| Module     : DemoService
+[2016-05-28 14:11:20.693][INFO][24751][framework.go:93]:| BuildDate  : build_date
+[2016-05-28 14:11:20.693][INFO][24751][framework.go:94]:| CommitID   : commit_id
+[2016-05-28 14:11:20.693][INFO][24751][framework.go:95]:| Version    : version
+[2016-05-28 14:11:20.693][INFO][24751][framework.go:96]:| Copyright (c) 2015 codoon.com, Inc. All Rights Reserved
+[2016-05-28 14:11:20.693][INFO][24751][framework.go:97]:-------------------------------------------------------------
+[2016-05-28 14:11:20.693][INFO][24751][framework.go:100]:| RLimit     -
+[2016-05-28 14:11:20.693][INFO][24751][framework.go:102]:|    Nofile  : (curr -> 65536, max -> 65536)
+[2016-05-28 14:11:20.693][INFO][24751][framework.go:104]:|    Core    : (curr -> 0, max -> 9223372036854775807)
+[2016-05-28 14:11:20.693][INFO][24751][framework.go:105]:-------------------------------------------------------------
+NOTICE: [2016-05-28 14:22:04.433][25382][framework.go:134][framework: StatsD config is missing, statsd will be unavailable]
+NOTICE: [2016-05-28 14:22:04.437][25382][framework.go:157][framework: Redis config is missing, Redis will be unavailable]
+NOTICE: [2016-05-28 14:22:04.437][25382][framework.go:166][framework: Memcache config is missing, Memcache will be unavailable]
+INFO: [2016-05-28 14:22:04.437][25382][framework.go:91][-------------------------------------------------------------]
+INFO: [2016-05-28 14:22:04.437][25382][framework.go:92][| Module     : DemoService]
+INFO: [2016-05-28 14:22:04.437][25382][framework.go:93][| BuildDate  : build_date]
+INFO: [2016-05-28 14:22:04.437][25382][framework.go:94][| CommitID   : commit_id]
+INFO: [2016-05-28 14:22:04.437][25382][framework.go:95][| Version    : version]
+INFO: [2016-05-28 14:22:04.437][25382][framework.go:96][| Copyright (c) 2015 codoon.com, Inc. All Rights Reserved]
+INFO: [2016-05-28 14:22:04.438][25382][framework.go:97][-------------------------------------------------------------]
+INFO: [2016-05-28 14:22:04.438][25382][framework.go:100][| RLimit     -]
+INFO: [2016-05-28 14:22:04.438][25382][framework.go:102][|    Nofile  : (curr -> 65536, max -> 65536)]
+INFO: [2016-05-28 14:22:04.438][25382][framework.go:104][|    Core    : (curr -> 0, max -> 9223372036854775807)]
+INFO: [2016-05-28 14:22:04.438][25382][framework.go:105][-------------------------------------------------------------]
+NOTICE: [05-28 14:22:41.937][25466][framework.go:134][framework: StatsD config is missing, statsd will be unavailable]
+NOTICE: [05-28 14:22:41.940][25466][framework.go:157][framework: Redis config is missing, Redis will be unavailable]
+NOTICE: [05-28 14:22:41.940][25466][framework.go:166][framework: Memcache config is missing, Memcache will be unavailable]
+INFO: [05-28 14:22:41.940][25466][framework.go:91][-------------------------------------------------------------]
+INFO: [05-28 14:22:41.940][25466][framework.go:92][| Module     : DemoService]
+INFO: [05-28 14:22:41.940][25466][framework.go:93][| BuildDate  : build_date]
+INFO: [05-28 14:22:41.940][25466][framework.go:94][| CommitID   : commit_id]
+INFO: [05-28 14:22:41.940][25466][framework.go:95][| Version    : version]
+INFO: [05-28 14:22:41.940][25466][framework.go:96][| Copyright (c) 2015 codoon.com, Inc. All Rights Reserved]
+INFO: [05-28 14:22:41.940][25466][framework.go:97][-------------------------------------------------------------]
+INFO: [05-28 14:22:41.940][25466][framework.go:100][| RLimit     -]
+INFO: [05-28 14:22:41.940][25466][framework.go:102][|    Nofile  : (curr -> 65536, max -> 65536)]
+INFO: [05-28 14:22:41.940][25466][framework.go:104][|    Core    : (curr -> 0, max -> 9223372036854775807)]
+INFO: [05-28 14:22:41.940][25466][framework.go:105][-------------------------------------------------------------]
+NOTICE: [05-28 14:23:50.041][25767][framework.go:134][framework: StatsD config is missing, statsd will be unavailable]
+NOTICE: [05-28 14:23:50.047][25767][framework.go:157][framework: Redis config is missing, Redis will be unavailable]
+NOTICE: [05-28 14:23:50.047][25767][framework.go:166][framework: Memcache config is missing, Memcache will be unavailable]
+INFO: [05-28 14:23:50.048][25767][framework.go:91][-------------------------------------------------------------]
+INFO: [05-28 14:23:50.048][25767][framework.go:92][| Module     : DemoService]
+INFO: [05-28 14:23:50.048][25767][framework.go:93][| BuildDate  : build_date]
+INFO: [05-28 14:23:50.048][25767][framework.go:94][| CommitID   : commit_id]
+INFO: [05-28 14:23:50.048][25767][framework.go:95][| Version    : version]
+INFO: [05-28 14:23:50.048][25767][framework.go:96][| Copyright (c) 2015 codoon.com, Inc. All Rights Reserved]
+INFO: [05-28 14:23:50.048][25767][framework.go:97][-------------------------------------------------------------]
+INFO: [05-28 14:23:50.048][25767][framework.go:100][| RLimit     -]
+INFO: [05-28 14:23:50.048][25767][framework.go:102][| Nofile  : (curr -> 65536, max -> 65536)]
+INFO: [05-28 14:23:50.048][25767][framework.go:104][| Core    : (curr -> 0, max -> 9223372036854775807)]
+INFO: [05-28 14:23:50.048][25767][framework.go:105][-------------------------------------------------------------]
+NOTICE: [05-28 14:51:39.489][28282][framework.go:134][framework: StatsD config is missing, statsd will be unavailable]
+NOTICE: [05-28 14:51:39.494][28282][framework.go:157][framework: Redis config is missing, Redis will be unavailable]
+NOTICE: [05-28 14:51:39.494][28282][framework.go:166][framework: Memcache config is missing, Memcache will be unavailable]
+INFO: [05-28 14:51:39.494][28282][framework.go:91][-------------------------------------------------------------]
+INFO: [05-28 14:51:39.494][28282][framework.go:92][| Module     : DemoService]
+INFO: [05-28 14:51:39.494][28282][framework.go:93][| BuildDate  : build_date]
+INFO: [05-28 14:51:39.494][28282][framework.go:94][| CommitID   : commit_id]
+INFO: [05-28 14:51:39.494][28282][framework.go:95][| Version    : version]
+INFO: [05-28 14:51:39.494][28282][framework.go:96][| Copyright (c) 2015 codoon.com, Inc. All Rights Reserved]
+INFO: [05-28 14:51:39.494][28282][framework.go:97][-------------------------------------------------------------]
+INFO: [05-28 14:51:39.494][28282][framework.go:100][| RLimit     -]
+INFO: [05-28 14:51:39.494][28282][framework.go:102][| Nofile  : (curr -> 65536, max -> 65536)]
+INFO: [05-28 14:51:39.494][28282][framework.go:104][| Core    : (curr -> 0, max -> 9223372036854775807)]
+INFO: [05-28 14:51:39.494][28282][framework.go:105][-------------------------------------------------------------]

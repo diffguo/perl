@@ -1,0 +1,72 @@
+{
+  "basePath": "/",
+  "consumes": [
+    "application/x-www-form-urlencoded"
+  ],
+  "definitions": {},
+  "host": "localhost",
+  "info": {
+    "contact": {
+      "email": "liudanking@example.com",
+      "name": "liudanking",
+      "url": "http://somewhere.com"
+    },
+    "description": "the purpose of this application is to provide an application\nthat is using plain go code to define an API\n\nThis should demonstrate all the possible comment annotations\nthat are available to turn go code into a fully compliant swagger 2.0 spec",
+    "license": {
+      "name": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    },
+    "termsOfService": "there are no TOS at this moment, use at your own risk we take no responsibility",
+    "title": "User API.",
+    "version": "0.0.1"
+  },
+  "paths": {
+    "/hi": {
+      "get": {
+        "consumes": [
+          "application/json"
+        ],
+        "description": "Just Say hi",
+        "operationId": "hi",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "$ref": "#/responses/someRsp"
+          }
+        },
+        "schemes": [
+          "http"
+        ],
+        "summary": "Say hi to client",
+        "tags": [
+          "say"
+        ]
+      }
+    }
+  },
+  "produces": [
+    "application/json"
+  ],
+  "responses": {
+    "someRsp": {
+      "description": "Just a test rsp",
+      "headers": {
+        "Msg": {
+          "description": "Response message\n\nRequired: true",
+          "type": "string"
+        },
+        "Word": {
+          "description": "Optional field",
+          "type": "string"
+        }
+      }
+    }
+  },
+  "schemes": [
+    "http",
+    "https"
+  ],
+  "swagger": "2.0"
+}
