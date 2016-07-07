@@ -5,7 +5,7 @@ from urllib import urlencode
     
 
 if __name__ == "__main__":
-    # 第一步，通过网页注册或者邮件，注册名字，回调地址，并获得client_id
+    # 第一步，通过网页注册或者邮件，注册名字，回调地址，并获得client_id （目前已经关闭注册）
 
 
     # 第二步，使用client_id，回调地址作为参数，调用codoon服务器认证授权页面，以获取AccessCode（这里的的回调地址和注册的回调地址要一致）：
@@ -20,6 +20,7 @@ if __name__ == "__main__":
 
 
     # 第三步，当用户登录并确认授权后，咕咚回调注册的回调地址，传回AccessCode，如： code=7e1d0072232572a5642514b064a551c8
+    # 贵公司需要启动一个httpserver用于接收AccessCode
 
 
     # 第四步，通过AccessCode换取Access Token
@@ -41,6 +42,11 @@ if __name__ == "__main__":
     print response.text
 
     {"access_token": {access_token}, "token_type": "bearer", "expire_in": 3600, "refresh_token": {refresh_token}, "scope": {scope}}
-    # urllib2.urlopen("https://openapi.codoon.com/authorize?scope=user,sports&" + urlencode(params)) 
+    
+
+    # 第五步 使用access_token访问接口
+
+
+    # 第六步 使用refresh_token刷新access_token
 
     

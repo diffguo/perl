@@ -4,6 +4,7 @@ import (
 	"bytes"
 	"crypto/cipher"
 	"crypto/des"
+	"encoding/base32"
 	"encoding/base64"
 	"fmt"
 )
